@@ -1,11 +1,11 @@
 {
-    "name": "she_masomo",
-    "short_name": "she_masomo",
+    "name": "advantour",
+    "short_name": "advantour",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Sexual Health Information for Women in East Africa",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

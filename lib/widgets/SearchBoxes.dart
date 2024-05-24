@@ -1,12 +1,6 @@
-
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-
-
 
 class Searchboxes {
-
-
   static TextField buildSearchTextfield(String labelText, {Function(dynamic value)? onChanged}) {
     TextEditingController lastNameController = TextEditingController();
     return TextField(
@@ -16,7 +10,7 @@ class Searchboxes {
       ),
       decoration: InputDecoration(
         labelText: labelText,
-        border: OutlineInputBorder(),
+        border: const OutlineInputBorder(),
       ),
     );
   }
